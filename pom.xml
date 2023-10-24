@@ -25,15 +25,15 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<!--Enable this run this project in Normal Spring boot-->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+		</dependency> -->
 		<!--Enable this run this project in Reactive Spring boot-->
-<!--		 <dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
-<!--		</dependency>-->
+		 <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+ 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
