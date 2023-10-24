@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+logging:
+  file:
+    name: "C:/Users/abhis/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/SpringBootPerformanceTesting/logs/app1.log"
+    path: "C:/Users/abhis/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/SpringBootPerformanceTesting/logs/"
+    max-history: 7
+  level:
+    root: ERROR
+#    performance.*: DEBUG
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
